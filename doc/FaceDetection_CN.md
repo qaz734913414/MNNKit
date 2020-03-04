@@ -12,17 +12,17 @@
 
 106个关键点的分布如下：
 
-<img src="face_points.png" alt="image.png" style="zoom:50%;" />
+<img src="http://mnnkit.oss-cn-hangzhou.aliyuncs.com/image/face_points.png" style="zoom:50%;" />
 
 人脸各区域关键点分布对应表：
 
-<img src="face_point_map.png" alt="image.png" style="zoom:60%;" />
+<img src="https://mnnkit.oss-cn-hangzhou.aliyuncs.com/image/face_point_map.png" alt="image.png" style="zoom:60%;" />
 
 ### 2. 欧拉角度
 
 即摇头（Yaw）、点头（Pitch）、歪头（Roll）的三个角度值
 
-![image.png](face_ypr.png)
+![image.png](https://mnnkit.oss-cn-hangzhou.aliyuncs.com/image/face_ypr.png)
 
 ### <span id="action">3. 人脸动作</span>
 
@@ -327,4 +327,25 @@ if ((faceAction & BROW_JUMP)!=0) {
 @property (nonatomic, assign) unsigned long faceAction;   // 人脸动作
 
 @end
+```
+
+### Citing
+
+```
+@inproceedings{lv2017hierarchical,
+  title={Hierarchical bilinear network for high performance face detection},
+  author={Lv, Jiangjing and Shao, Xiaohu and Xing, Junliang and Liu, Pengcheng and Zhou, Xiangdong and Zhou, Xi},
+  booktitle={2017 IEEE International Conference on Image Processing (ICIP)},
+  pages={415--419},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{lv2017deep,
+  title={A deep regression architecture with two-stage re-initialization for high performance facial landmark detection},
+  author={Lv, Jiangjing and Shao, Xiaohu and Xing, Junliang and Cheng, Cheng and Zhou, Xi},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={3317--3326},
+  year={2017}
+}
 ```
